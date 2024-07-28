@@ -1,0 +1,4 @@
+react native navigation
+redux toolkit
+Ntive wind (Tailwind)
+Sanity

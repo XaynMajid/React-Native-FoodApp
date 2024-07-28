@@ -1,0 +1,378 @@
+export const categories = [
+  {
+    id: 1,
+    name: "Cupcake",
+    image: require("../assets/categories/icons8-cupcake-emoji-96.png"),
+  },
+  {
+    id: 2,
+    name: "Hamburger",
+    image: require("../assets/categories/icons8-hamburger-96.png"),
+  },
+  {
+    id: 3,
+    name: "Pizza",
+    image: require("../assets/categories/icons8-pizza-96.png"),
+  },
+  {
+    id: 4,
+    name: "Spaghetti",
+    image: require("../assets/categories/icons8-spaghetti-96.png"),
+  },
+  {
+    id: 5,
+    name: "Takeout",
+    image: require("../assets/categories/icons8-takeout-box-96.png"),
+  },
+  {
+    id: 6,
+    name: "Drink",
+    image: require("../assets/categories/icons8-tropical-drink-96.png"),
+  },
+  {
+    id: 7,
+    name: "Fish",
+    image: require("../assets/categories/icons8-tropical-fish-96.png"),
+  },
+];
+
+export const featuredData = [
+  {
+    id: 1,
+    title: "Hot and Spicy",
+    description: "Soft and Tender Fried Chicken",
+    restaurants: [
+      {
+        id: 1,
+        name: "Papa Johns",
+        image: require("../assets/restaurants/papaJohns.jpg"),
+        description: "Hot and spicy pizzas",
+        lng: 38.214562,
+        lat: -85.5324269,
+        address: "DHA phase V",
+        stars: 4,
+        category: "Fast Food",
+        dishes: [
+          {
+            id: 1,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 2,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 3,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+        ],
+      },
+      {
+        id: 2,
+        name: "KFC",
+        image: require("../assets/restaurants/papaJohns.jpg"),
+        description: "Hot and spicy pizzas",
+        lng: 38.214562,
+        lat: -85.5324269,
+        address: "DHA phase V",
+        stars: 4,
+        category: "Fast Food",
+        dishes: [
+          {
+            id: 1,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 2,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 3,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: "Mcdonalds",
+        image: require("../assets/restaurants/papaJohns.jpg"),
+        description: "Hot and spicy pizzas",
+        lng: 38.214562,
+        lat: -85.5324269,
+        address: "DHA phase V",
+        stars: 4,
+        category: "Fast Food",
+        dishes: [
+          {
+            id: 1,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 2,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 3,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+        ],
+      },
+    ],
+  },
+  {                   
+    id: 2,
+    title: "Hot and Spicy",
+    description: "Soft and Tender Fried Chicken",
+    restaurants: [
+      {
+        id: 1,
+        name: "Papa Johns",
+        image: require("../assets/restaurants/papaJohns.jpg"),
+        description: "Hot and spicy pizzas",
+        lng: 38.214562,
+        lat: -85.5324269,
+        address: "DHA phase V",
+        stars: 4,
+        category: "Fast Food",
+        dishes: [
+          {
+            id: 1,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 2,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 3,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+        ],
+      },
+      {
+        id: 2,
+        name: "KFC",
+        image: require("../assets/restaurants/papaJohns.jpg"),
+        description: "Hot and spicy pizzas",
+        lng: 38.214562,
+        lat: -85.5324269,
+        address: "DHA phase V",
+        stars: 4,
+        category: "Fast Food",
+        dishes: [
+          {
+            id: 1,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 2,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 3,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: "Mcdonalds",
+        image: require("../assets/restaurants/papaJohns.jpg"),
+        description: "Hot and spicy pizzas",
+        lng: 38.214562,
+        lat: -85.5324269,
+        address: "DHA phase V",
+        stars: 4,
+        category: "Fast Food",
+        dishes: [
+          {
+            id: 1,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 2,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 3,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Hot and Spicy",
+    description: "Soft and Tender Fried Chicken",
+    restaurants: [
+      {
+        id: 1,
+        name: "Papa Johns",
+        image: require("../assets/restaurants/papaJohns.jpg"),
+        description: "Hot and spicy pizzas",
+        lng: 38.214562,
+        lat: -85.5324269,
+        address: "DHA phase V",
+        stars: 4,
+        category: "Fast Food",
+        dishes: [
+          {
+            id: 1,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 2,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 3,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+        ],
+      },
+      {
+        id: 2,
+        name: "KFC",
+        image: require("../assets/restaurants/papaJohns.jpg"),
+        description: "Hot and spicy pizzas",
+        lng: 38.214562,
+        lat: -85.5324269,
+        address: "DHA phase V",
+        stars: 4,
+        category: "Fast Food",
+        dishes: [
+          {
+            id: 1,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 2,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 3,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: "Mcdonalds",
+        image: require("../assets/restaurants/papaJohns.jpg"),
+        description: "Hot and spicy pizzas",
+        lng: 38.214562,
+        lat: -85.5324269,
+        address: "DHA phase V",
+        stars: 4,
+        category: "Fast Food",
+        dishes: [
+          {
+            id: 1,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 2,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+          {
+            id: 3,
+            name: "Pizza",
+            description: "cheezy garlic pizza",
+            price: 1150,
+            image: require("../assets/dishes/pizza.jpeg"),
+          },
+        ],
+      },
+    ],
+  },
+ 
+];
+
+//  i also tried to fetch data like
+// [featuredData,featuredData,featuredData].map((etc)) but dont get the value 3 times so i create featureddata objects 3 times
+
+
+
+
+
+
+
